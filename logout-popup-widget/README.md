@@ -3,7 +3,7 @@
 Widget which allows to perform lock, reboot, log out, power off and sleep actions. It can be called either by a shortcut, or by clicking on a widget in wibar.
 
 <p align="center">
-    <img src="https://github.com/streetturtle/awesome-wm-widgets/raw/master/logout-widget/screenshot.gif" alt="screenshot">
+    <img src="https://github.com/streetturtle/awesome-wm-widgets/raw/master/logout-popup-widget/screenshot.gif" alt="screenshot">
 </p>
 
 When the widget is shown, following shortcuts can be used:
@@ -58,6 +58,7 @@ Then
 | `bg_color` |  `beautiful.bg_normal` | The color the background of the |
 | `accent_color` | `beautiful.bg_focus` | The color of the buttons |
 | `text_color` | `beautiful.fg_normal` | The color of text |
+| `label_color` | `beautiful.fg_normal` | The color of the button's label |
 | `phrases` | `{'Goodbye!'}` | The table with phrase(s) to show, if more than one provided, the phrase is chosen randomly. Leave empty (`{}`) to hide the phrase |
 | `onlogout` | `function() awesome.quit() end` | Function which is called when the logout button is pressed |
 | `onlock` | `function() awful.spawn.with_shell("systemctl suspend") end` | Function which is called when the lock button is pressed |
